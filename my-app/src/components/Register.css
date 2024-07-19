@@ -1,0 +1,50 @@
+/* src/components/Register.css */
+.register-container {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(248, 248, 248);
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
+}
+
+.logo {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image rounded */
+  margin-bottom: 20px; /* Space between logo and heading */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Register-group input {
+  width: 10%;
+  padding:1px;
+  box-sizing: border-box;
+  margin-left: 200px;
+
+  ;
+} 
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
